@@ -2,7 +2,7 @@
 #include <BLEUtils.h>
 #include <BLEClient.h>
 
-#define DEBUG_BLE 1   // Đổi thành 1 khi cần xem log Serial
+#define DEBUG_BLE 0   // Đổi thành 1 khi cần xem log Serial
 
 #if DEBUG_BLE
   #define DBG(...) do { Serial.printf(__VA_ARGS__); } while (0)
